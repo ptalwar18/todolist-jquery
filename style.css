@@ -1,0 +1,52 @@
+body {
+    background: blue;
+}
+#container {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+h1 {
+    color: white;
+    background:red;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.icon-plus {
+    padding-left: 180px;
+}
+input {
+    width: 99.5%;
+}
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    list-style-position: inside;
+}
+.item {
+    border-bottom: 1px solid green;
+    width: 100%;
+    margin:0;
+    height:auto;
+    background: yellow;
+    text-align: left;
+
+}
+
+.icon-trash {
+    display: none;
+    width: 100px;
+    background: red;
+    color: white;
+    border-right: 2px solid red;
+    margin-left: 0;
+    margin-right: 40px;
+    
+}
